@@ -17,7 +17,7 @@ cp $loandir/constants.f90 $destdir/constants.f90
 
 #ufs_weather_model
 loandir=rrfs_bridgeloan/ufs_weather_model/FV3
-destdir=ufs_weather_model/FV3
+destdir=ufs-weather-model/FV3
 cp $loandir/io/fv3atm_clm_lake_io.F90 $destdir/io/fv3atm_clm_lake_io.F90
 cp $loandir/io/fv3atm_restart_io.F90 $destdir/io/fv3atm_restart_io.F90
 cp $loandir/io/fv3atm_rrfs_sd_io.F90 $destdir/io/fv3atm_rrfs_sd_io.F90
